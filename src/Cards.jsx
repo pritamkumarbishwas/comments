@@ -51,9 +51,9 @@ function Cards() {
     return (
         <div class="task-card">
             <div class="icons-row">
-                <i class="fas fa-check-circle"></i>
+                <i class="fa-regular fa-circle-check"></i>
                 <div class="right-icons">
-                    <i class="fas fa-trash-alt"></i>
+                    <i class="fa-regular fa-trash-can"></i>
                     <i class="fas fa-times"></i>
                 </div>
             </div>

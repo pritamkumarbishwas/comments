@@ -311,5 +311,5 @@
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
-    color: #555;
+    color: rgba(242, 132, 130, 1);
 }
