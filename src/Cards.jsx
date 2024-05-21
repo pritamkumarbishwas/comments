@@ -121,6 +121,7 @@ function Cards() {
                             onChange={(e) => setNewComment(e.target.value)}
                             placeholder="Write Comment..."
                         />
+                        
                         <FontAwesomeIcon icon={faAngleRight} className="angle-right-icon" onClick={handleAddComment} />
                     </div>
                 </div>

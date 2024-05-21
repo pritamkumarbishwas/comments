@@ -307,9 +307,11 @@
 
 .input-wrapper .angle-right-icon {
     position: absolute;
-    right: 25px;
+    right: 10px; 
     top: 50%;
     transform: translateY(-50%);
-    pointer-events: none;
     color: rgba(242, 132, 130, 1);
+    cursor: pointer;
+    padding: 13px;
+    ; 
 }
