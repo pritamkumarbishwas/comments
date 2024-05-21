@@ -222,6 +222,12 @@
     border-radius: 25px;
 }
 
+.btn-select span {
+    font-size: 14px;
+    color: rgba(0, 147, 121, 1);
+
+}
+
 .custom-options {
     position: absolute;
     top: 100%;
@@ -307,11 +313,13 @@
 
 .input-wrapper .angle-right-icon {
     position: absolute;
-    right: 10px; 
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
     color: rgba(242, 132, 130, 1);
     cursor: pointer;
-    padding: 13px;
-    ; 
+    padding: 8px;
+    width: 40px;
+    border-radius: 20px;
+
 }

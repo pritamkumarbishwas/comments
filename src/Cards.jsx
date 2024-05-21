@@ -2,6 +2,7 @@ import './card.css';
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight, faTrash } from '@fortawesome/free-solid-svg-icons';
+import sendLogo from './assets/send.svg'
 
 function Cards() {
     const [selectedLang, setSelectedLang] = useState('en'); // Default language
@@ -121,8 +122,10 @@ function Cards() {
                             onChange={(e) => setNewComment(e.target.value)}
                             placeholder="Write Comment..."
                         />
-                        
-                        <FontAwesomeIcon icon={faAngleRight} className="angle-right-icon" onClick={handleAddComment} />
+
+                        <img src={sendLogo} className="angle-right-icon" alt="send logo" />
+
+                        {/* <FontAwesomeIcon icon={faAngleRight} className="angle-right-icon" onClick={handleAddComment} /> */}
                     </div>
                 </div>
 
